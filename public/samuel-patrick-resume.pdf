@@ -1,0 +1,656 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Pages /Kids [ 11 0 R 15 0 R ] /Count 2 >>
+endobj
+5 0 obj
+<< /Length 4339 >>
+stream
+0.85 0.35 0.05 rg
+0 835 595.28 6.89 re
+f
+0.06 0.08 0.11 rg
+0 735 595.28 100 re
+f
+BT
+/F2 20 Tf
+1 1 1 rg
+40 795 Td
+(SAMUEL IMOLE PATRICK) Tj
+ET
+BT
+/F2 9.5 Tf
+0.98 0.45 0.08 rg
+40 778 Td
+(FULL-STACK SOFTWARE ENGINEER | MOBILE & WEB ARCHITECT) Tj
+ET
+BT
+/F1 8.5 Tf
+0.8 0.85 0.9 rg
+40 755 Td
+(Email: samuelimolepatrick@gmail.com   |   Phone: +234 814 922 4954   |   Location: Mowe, Ogun State, Nigeria) Tj
+ET
+BT
+/F1 8.5 Tf
+0.8 0.85 0.9 rg
+40 742 Td
+(Portfolio: about-sammy.netlify.app   |   GitHub: github.com/ESCANOR-dev-afro   |   LinkedIn: samuel-patrick) Tj
+ET
+BT
+/F2 11 Tf
+0.85 0.35 0.05 rg
+40 710 Td
+(EXECUTIVE PROFILE & ENGINEERING SUMMARY) Tj
+ET
+0.85 0.35 0.05 RG
+1 w
+40 706 m 555 706 l
+S
+BT
+/F1 9 Tf
+0.15 0.18 0.22 rg
+40 692 Td
+(Results-driven Full-Stack Software Engineer with proven capability in architecting resilient, production-ready) Tj
+ET
+BT
+/F1 9 Tf
+0.15 0.18 0.22 rg
+40 679 Td
+(applications across mobile, web, and distributed backend environments. Demonstrated track record building 60FPS+) Tj
+ET
+BT
+/F1 9 Tf
+0.15 0.18 0.22 rg
+40 666 Td
+(Flutter native apps, high-throughput React & Next.js platforms, and offline-first PostgreSQL/Supabase database systems.) Tj
+ET
+BT
+/F1 9 Tf
+0.15 0.18 0.22 rg
+40 653 Td
+(Specialized in Clean Architecture, Riverpod state orchestration, double-entry ledgers, and secure authentication.) Tj
+ET
+BT
+/F2 11 Tf
+0.85 0.35 0.05 rg
+40 631 Td
+(TECHNICAL SKILLS & CORE ARSENAL) Tj
+ET
+0.85 0.35 0.05 RG
+1 w
+40 627 m 555 627 l
+S
+BT
+/F2 9 Tf
+0.1 0.12 0.16 rg
+40 613 Td
+(• Mobile Engineering:) Tj
+ET
+BT
+/F1 9 Tf
+0.25 0.28 0.35 rg
+165 613 Td
+(Flutter, Dart, Riverpod, GoRouter, Firebase Core/Firestore, Supabase Mobile, Offline-First Sync) Tj
+ET
+BT
+/F2 9 Tf
+0.1 0.12 0.16 rg
+40 599 Td
+(• Frontend Web Stack:) Tj
+ET
+BT
+/F1 9 Tf
+0.25 0.28 0.35 rg
+165 599 Td
+(React.js, Next.js \(App Router\), TypeScript, JavaScript \(ES6+\), Tailwind CSS, Vite, HTML5, REST APIs) Tj
+ET
+BT
+/F2 9 Tf
+0.1 0.12 0.16 rg
+40 585 Td
+(• Backend & Databases:) Tj
+ET
+BT
+/F1 9 Tf
+0.25 0.28 0.35 rg
+165 585 Td
+(Node.js, Express, PostgreSQL, Supabase, Firebase Firestore, SQLite, IndexedDB, Database Design) Tj
+ET
+BT
+/F2 9 Tf
+0.1 0.12 0.16 rg
+40 571 Td
+(• System Architecture:) Tj
+ET
+BT
+/F1 9 Tf
+0.25 0.28 0.35 rg
+165 571 Td
+(Clean Architecture, State Management, Double-Entry Ledgers, Kiosk Lockdown, Real-time WebSockets) Tj
+ET
+BT
+/F2 9 Tf
+0.1 0.12 0.16 rg
+40 557 Td
+(• Developer Tools:) Tj
+ET
+BT
+/F1 9 Tf
+0.25 0.28 0.35 rg
+165 557 Td
+(Git, GitHub, VS Code, Cursor AI, Figma, Postman, Linux CLI, Netlify, Vercel) Tj
+ET
+BT
+/F2 11 Tf
+0.85 0.35 0.05 rg
+40 533 Td
+(PROFESSIONAL EXPERIENCE & INDUSTRIAL TRAINING) Tj
+ET
+0.85 0.35 0.05 RG
+1 w
+40 529 m 555 529 l
+S
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+40 515 Td
+(Software Engineering & Database Architecture Intern \(SIWES\)) Tj
+ET
+BT
+/F1 9 Tf
+0.4 0.45 0.5 rg
+400 515 Td
+(InfoSystem Consulting | Nigeria) Tj
+ET
+BT
+/F1 8.8 Tf
+0.2 0.23 0.28 rg
+50 501 Td
+(▸  Engineered offline-first localized examination engine \(AWBA CBT Platform\) serving concurrent candidates with zero network latency.) Tj
+ET
+BT
+/F1 8.8 Tf
+0.2 0.23 0.28 rg
+50 488 Td
+(▸  Architected fault-tolerant SQLite/IndexedDB synchronization protocols ensuring 100% exam data integrity during unexpected shutdowns.) Tj
+ET
+BT
+/F1 8.8 Tf
+0.2 0.23 0.28 rg
+50 475 Td
+(▸  Constructed kiosk lockdown security rules preventing window defocus, external process spawning, and unauthorized data tampering.) Tj
+ET
+BT
+/F1 8.8 Tf
+0.2 0.23 0.28 rg
+50 462 Td
+(▸  Engineered automated result compilation pipeline reducing exam processing and transcript generation time from hours to seconds.) Tj
+ET
+BT
+/F2 11 Tf
+0.85 0.35 0.05 rg
+40 439 Td
+(EDUCATION & ACADEMIC BACKGROUND) Tj
+ET
+0.85 0.35 0.05 RG
+1 w
+40 435 m 555 435 l
+S
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+40 421 Td
+(Bachelor of Science \(B.Sc.\) in Computer Science) Tj
+ET
+BT
+/F1 9 Tf
+0.4 0.45 0.5 rg
+370 421 Td
+(TASFUED, Ogun State | Enrolled \(High GPA\)) Tj
+ET
+BT
+/F1 8.8 Tf
+0.25 0.28 0.35 rg
+40 408 Td
+(Institution: Tai Solarin Federal University of Education • Focus: Data Structures, Algorithms, Systems Architecture & Networking) Tj
+ET
+0.85 0.88 0.92 RG
+0.5 w
+40 30 m 555 30 l
+S
+BT
+/F1 7.5 Tf
+0.5 0.55 0.6 rg
+40 18 Td
+(Samuel Imole Patrick • Master Curriculum Vitae • Page 1 of 2) Tj
+ET
+BT
+/F1 7.5 Tf
+0.5 0.55 0.6 rg
+450 18 Td
+(Verified Portfolio: about-sammy.netlify.app) Tj
+ET
+
+endstream
+endobj
+6 0 obj
+<< /Type /Annot /Subtype /Link /Rect [65 752 215 765] /Border [0 0 0] /A << /S /URI /URI (mailto:samuelimolepatrick@gmail.com) >> >>
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [260 752 350 765] /Border [0 0 0] /A << /S /URI /URI (tel:+2348149224954) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [75 739 185 752] /Border [0 0 0] /A << /S /URI /URI (https://about-sammy.netlify.app) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [230 739 385 752] /Border [0 0 0] /A << /S /URI /URI (https://github.com/ESCANOR-dev-afro) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [435 739 520 752] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/samuel-patrick-722b82423) >> >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Contents 5 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [ 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R ] >>
+endobj
+12 0 obj
+<< /Length 6006 >>
+stream
+0.85 0.35 0.05 rg
+0 835 595.28 6.89 re
+f
+0.06 0.08 0.11 rg
+0 775 595.28 60 re
+f
+BT
+/F2 14 Tf
+1 1 1 rg
+40 805 Td
+(VERIFIED PRODUCTION DEPLOYMENTS & ENGINEERING NODES) Tj
+ET
+BT
+/F1 8.5 Tf
+0.8 0.85 0.9 rg
+40 788 Td
+(Detailed technical architecture for deployed web, mobile, and enterprise platforms.) Tj
+ET
+0.96 0.97 0.98 rg
+40 682 515 78 re
+f
+0.85 0.88 0.92 RG
+0.75 w
+40 682 515 78 re
+S
+0.85 0.35 0.05 rg
+40 682 4 78 re
+f
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+52 748 Td
+(01. TASFUED MARKETPLACE) Tj
+ET
+BT
+/F3 8.5 Tf
+0.5 0.55 0.6 rg
+260 748 Td
+(// Campus Commerce Platform) Tj
+ET
+BT
+/F2 8.5 Tf
+0.85 0.35 0.05 rg
+450 748 Td
+(Live URL ↗) Tj
+ET
+BT
+/F2 8 Tf
+0.35 0.38 0.42 rg
+52 736 Td
+(TECH STACK:) Tj
+ET
+BT
+/F1 8 Tf
+0.85 0.35 0.05 rg
+115 736 Td
+(React, Vite, Tailwind CSS, Supabase, PostgreSQL) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 723 Td
+(▸ Engineered student-to-student e-commerce marketplace featuring categorized listings, search indexing, and seller profiles.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 711 Td
+(▸ Implemented Supabase Auth, PostgreSQL RLS security policies, and sub-second full-text catalog queries.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 699 Td
+(▸ Integrated real-time cart state, responsive desktop/mobile viewports, and multi-image cloud uploads.) Tj
+ET
+0.96 0.97 0.98 rg
+40 590 515 78 re
+f
+0.85 0.88 0.92 RG
+0.75 w
+40 590 515 78 re
+S
+0.85 0.35 0.05 rg
+40 590 4 78 re
+f
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+52 656 Td
+(02. SCHEDULER \(ACADEMIC COMPANION\)) Tj
+ET
+BT
+/F3 8.5 Tf
+0.5 0.55 0.6 rg
+260 656 Td
+(// Mobile Schedule Management) Tj
+ET
+BT
+/F2 8.5 Tf
+0.85 0.35 0.05 rg
+450 656 Td
+(Live URL ↗) Tj
+ET
+BT
+/F2 8 Tf
+0.35 0.38 0.42 rg
+52 644 Td
+(TECH STACK:) Tj
+ET
+BT
+/F1 8 Tf
+0.85 0.35 0.05 rg
+115 644 Td
+(Flutter, Dart, Supabase, Riverpod Architecture) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 631 Td
+(▸ Architected cross-platform mobile timetable suite featuring lecture reminders, conflict detection, and exam countdowns.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 619 Td
+(▸ Implemented offline-first Riverpod state engine caching schedule matrices locally with automatic cloud sync.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 607 Td
+(▸ Designed custom calendar grid and push notification telemetry delivering 60FPS fluid touch responsiveness.) Tj
+ET
+0.96 0.97 0.98 rg
+40 498 515 78 re
+f
+0.85 0.88 0.92 RG
+0.75 w
+40 498 515 78 re
+S
+0.85 0.35 0.05 rg
+40 498 4 78 re
+f
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+52 564 Td
+(03. AWBA CBT PLATFORM) Tj
+ET
+BT
+/F3 8.5 Tf
+0.5 0.55 0.6 rg
+260 564 Td
+(// Offline Examination System) Tj
+ET
+BT
+/F2 8 Tf
+0.35 0.38 0.42 rg
+52 552 Td
+(TECH STACK:) Tj
+ET
+BT
+/F1 8 Tf
+0.85 0.35 0.05 rg
+115 552 Td
+(React, Node.js, Electron, IndexedDB, SQLite, Tailwind CSS) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 539 Td
+(▸ Built localized offline-first examination engine capable of processing hundreds of candidates with zero internet dependency.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 527 Td
+(▸ Constructed anti-tamper kiosk mode with strict focus detection, secure question randomization, and instant grading.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 515 Td
+(▸ Engineered comprehensive admin telemetry dashboard for real-time exam supervision and bulk result export.) Tj
+ET
+0.96 0.97 0.98 rg
+40 406 515 78 re
+f
+0.85 0.88 0.92 RG
+0.75 w
+40 406 515 78 re
+S
+0.85 0.35 0.05 rg
+40 406 4 78 re
+f
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+52 472 Td
+(04. FINTECH NEO-BANKING CORE) Tj
+ET
+BT
+/F3 8.5 Tf
+0.5 0.55 0.6 rg
+260 472 Td
+(// Financial Technology) Tj
+ET
+BT
+/F2 8 Tf
+0.35 0.38 0.42 rg
+52 460 Td
+(TECH STACK:) Tj
+ET
+BT
+/F1 8 Tf
+0.85 0.35 0.05 rg
+115 460 Td
+(Flutter, Firebase Firestore, Node.js, Riverpod) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 447 Td
+(▸ Constructed double-entry ledger digital wallet ensuring cryptographic transaction consistency and race-condition immunity.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 435 Td
+(▸ Implemented peer-to-peer fund transfers, real-time analytics graphs, dynamic PIN verification, and audit logs.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 423 Td
+(▸ Orchestrated Firestore atomic batch transactions and cloud function triggers for real-time receipt generation.) Tj
+ET
+0.96 0.97 0.98 rg
+40 314 515 78 re
+f
+0.85 0.88 0.92 RG
+0.75 w
+40 314 515 78 re
+S
+0.85 0.35 0.05 rg
+40 314 4 78 re
+f
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+52 380 Td
+(05. SARKIN MOTA GROUP) Tj
+ET
+BT
+/F3 8.5 Tf
+0.5 0.55 0.6 rg
+260 380 Td
+(// Automotive Luxury Showroom) Tj
+ET
+BT
+/F2 8 Tf
+0.35 0.38 0.42 rg
+52 368 Td
+(TECH STACK:) Tj
+ET
+BT
+/F1 8 Tf
+0.85 0.35 0.05 rg
+115 368 Td
+(Next.js, TypeScript, Tailwind CSS, GSAP Motion) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 355 Td
+(▸ Developed high-end luxury vehicle showroom platform featuring interactive inventory search, VIN specs, and finance calculators.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 343 Td
+(▸ Crafted 60FPS cinematic scroll-driven animations with GSAP and optimized image delivery pipeline.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 331 Td
+(▸ Designed VIP service appointment scheduling module with instant email confirmation and calendar sync.) Tj
+ET
+0.96 0.97 0.98 rg
+40 222 515 78 re
+f
+0.85 0.88 0.92 RG
+0.75 w
+40 222 515 78 re
+S
+0.85 0.35 0.05 rg
+40 222 4 78 re
+f
+BT
+/F2 10 Tf
+0.1 0.12 0.16 rg
+52 288 Td
+(06. THE GILDED TABLE) Tj
+ET
+BT
+/F3 8.5 Tf
+0.5 0.55 0.6 rg
+260 288 Td
+(// Hospitality & Dining Platform) Tj
+ET
+BT
+/F2 8 Tf
+0.35 0.38 0.42 rg
+52 276 Td
+(TECH STACK:) Tj
+ET
+BT
+/F1 8 Tf
+0.85 0.35 0.05 rg
+115 276 Td
+(Flutter, Next.js, TypeScript, Supabase, PostgreSQL) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 263 Td
+(▸ Engineered dual-mode hospitality platform \(mobile guest app + web command center\) with interactive table floorplans.) Tj
+ET
+BT
+/F1 8 Tf
+0.2 0.23 0.28 rg
+52 251 Td
+(▸ Implemented real-time table occupancy heatmaps, sommelier tasting menus, and kitchen display system \(KDS\).) Tj
+ET
+0.85 0.88 0.92 RG
+0.5 w
+40 30 m 555 30 l
+S
+BT
+/F1 7.5 Tf
+0.5 0.55 0.6 rg
+40 18 Td
+(Samuel Imole Patrick • Master Curriculum Vitae • Page 2 of 2) Tj
+ET
+BT
+/F1 7.5 Tf
+0.5 0.55 0.6 rg
+450 18 Td
+(Official Dossier // Confidential) Tj
+ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Annot /Subtype /Link /Rect [450 746 540 758] /Border [0 0 0] /A << /S /URI /URI (https://tasfuedmarketplace.com.ng) >> >>
+endobj
+14 0 obj
+<< /Type /Annot /Subtype /Link /Rect [450 654 540 666] /Border [0 0 0] /A << /S /URI /URI (https://scheduler.nexlify.com.ng) >> >>
+endobj
+15 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Contents 12 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [ 13 0 R 14 0 R ] >>
+endobj
+16 0 obj
+<< /Type /Catalog /Pages 4 0 R >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000019 00000 n 
+0000000116 00000 n 
+0000000218 00000 n 
+0000000323 00000 n 
+0000000390 00000 n 
+0000004781 00000 n 
+0000004929 00000 n 
+0000005061 00000 n 
+0000005205 00000 n 
+0000005354 00000 n 
+0000005521 00000 n 
+0000005717 00000 n 
+0000011776 00000 n 
+0000011924 00000 n 
+0000012071 00000 n 
+0000012251 00000 n 
+trailer
+<< /Size 17 /Root 16 0 R >>
+startxref
+12301
+%%EOF

@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+  <meta charset="utf-8">
+  <title>Samuel Imole Patrick - Master Curriculum Vitae</title>
+  <!--[if gte mso 9]>
+  <xml>
+    <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>100</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+    </w:WordDocument>
+  </xml>
+  <![endif]-->
+  <style>
+    @page Section1 {
+      size: 21.0cm 29.7cm;
+      margin: 1.8cm 1.8cm 1.8cm 1.8cm;
+      mso-header-margin: 1.0cm;
+      mso-footer-margin: 1.0cm;
+      mso-paper-source: 0;
+    }
+    div.Section1 {
+      page: Section1;
+    }
+    body {
+      font-family: 'Segoe UI', Calibri, Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      line-height: 1.45;
+      color: #1e293b;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 21pt;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 2px 0;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+    .subtitle {
+      font-size: 11.5pt;
+      font-weight: 700;
+      color: #b45309;
+      margin: 0 0 10px 0;
+      letter-spacing: 0.5px;
+    }
+    .contact-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 14px;
+      border-bottom: 1.5pt solid #cbd5e1;
+      padding-bottom: 8px;
+    }
+    .contact-table td {
+      font-size: 9pt;
+      color: #475569;
+      padding: 2.5px 0;
+      vertical-align: middle;
+    }
+    .contact-table a {
+      color: #b45309;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    h2.section-title {
+      font-size: 11.5pt;
+      font-weight: 800;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 16px 0 6px 0;
+      padding-bottom: 3px;
+      border-bottom: 2pt solid #d97706;
+    }
+    p {
+      margin: 0 0 8px 0;
+      color: #334155;
+      font-size: 9.5pt;
+      text-align: justify;
+    }
+    .entry-header {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      margin-bottom: 2px;
+    }
+    .entry-title {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .entry-org {
+      font-size: 9.5pt;
+      font-weight: 600;
+      color: #b45309;
+    }
+    .entry-date {
+      font-size: 8.5pt;
+      color: #64748b;
+      text-align: right;
+      font-style: italic;
+    }
+    ul.bullet-list {
+      margin: 4px 0 10px 0;
+      padding-left: 18px;
+    }
+    ul.bullet-list li {
+      margin-bottom: 4px;
+      font-size: 9.2pt;
+      color: #334155;
+    }
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 6px;
+      margin-bottom: 10px;
+    }
+    .skills-table td {
+      padding: 4.5px 6px;
+      font-size: 9pt;
+      vertical-align: top;
+      border: 1px solid #e2e8f0;
+    }
+    .skill-category {
+      font-weight: 700;
+      color: #0f172a;
+      width: 28%;
+      background-color: #f8fafc;
+    }
+    .skill-items {
+      color: #334155;
+      width: 72%;
+    }
+    .project-card {
+      margin-top: 8px;
+      margin-bottom: 11px;
+      padding-bottom: 8px;
+      border-bottom: 0.75pt dashed #cbd5e1;
+    }
+    .project-title {
+      font-size: 10pt;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .project-stack {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #b45309;
+      font-family: Consolas, 'Courier New', monospace;
+      margin: 1px 0 3px 0;
+    }
+    .project-desc {
+      font-size: 9pt;
+      color: #475569;
+      line-height: 1.4;
+    }
+    .footer-note {
+      margin-top: 24px;
+      padding-top: 10px;
+      border-top: 1pt solid #cbd5e1;
+      font-size: 8pt;
+      color: #94a3b8;
+      text-align: center;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="Section1">
+    <!-- Header -->
+    <h1>Samuel Imole Patrick</h1>
+    <div class="subtitle">Full-Stack Web &amp; Mobile Application Developer (ESCANOR)</div>
+
+    <!-- Contact Telemetry Table -->
+    <table class="contact-table">
+      <tr>
+        <td style="width: 50%;"><strong>Location:</strong> Mowe, Ogun State, Nigeria</td>
+        <td style="width: 50%;"><strong>Email:</strong> <a href="mailto:samuelimolepatrick@gmail.com">samuelimolepatrick@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td><strong>Phone / WhatsApp:</strong> <a href="tel:+2348149224954">+234 814 922 4954</a></td>
+        <td><strong>Portfolio:</strong> <a href="https://about-sammy.netlify.app">about-sammy.netlify.app</a></td>
+      </tr>
+      <tr>
+        <td><strong>GitHub:</strong> <a href="https://github.com/ESCANOR-dev-afro">github.com/ESCANOR-dev-afro</a></td>
+        <td><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/samuel-patrick-722b82423">samuel-patrick</a></td>
+      </tr>
+    </table>
+
+    <!-- Executive Summary -->
+    <h2 class="section-title">Executive Profile &amp; Summary</h2>
+    <p>
+      High-impact Full-Stack Web and Mobile Application Developer with demonstrated expertise in engineering resilient, production-ready applications across high-growth startups and enterprise systems. Specialized in full-lifecycle development using React, Next.js, TypeScript, Flutter, Dart, Supabase, and PostgreSQL. Recognized for deep analytical competence in algorithm optimization, relational schema design, 60fps hardware-accelerated user interfaces, sub-second query performance, and robust anti-cheat security architectures.
+    </p>
+
+    <!-- Education -->
+    <h2 class="section-title">Education &amp; Academic Background</h2>
+    <table class="entry-header">
+      <tr>
+        <td class="entry-title">Bachelor of Science (B.Sc.) in Computer Science</td>
+        <td class="entry-date">Enrolled • Exceptional Academic Standing</td>
+      </tr>
+      <tr>
+        <td class="entry-org" colspan="2">Tai Solarin Federal University of Education (TASFUED), Ogun State, Nigeria</td>
+      </tr>
+    </table>
+    <ul class="bullet-list">
+      <li><strong>Specialization &amp; Rigor:</strong> Advanced Algorithms, Relational Database Architecture &amp; Query Optimization, Systems Concurrency, Operating Systems, Object-Oriented System Design.</li>
+      <li><strong>Academic Initiatives:</strong> Campus-wide peer-to-peer e-commerce platform (TASFUED Marketplace) and intelligent mobile schedule companion systems.</li>
+    </ul>
+
+    <!-- Experience -->
+    <h2 class="section-title">Professional Experience &amp; Industrial Training</h2>
+    <table class="entry-header">
+      <tr>
+        <td class="entry-title">Software Engineering &amp; Database Architecture Intern (SIWES)</td>
+        <td class="entry-date">3-Month Intensive Program • Completed</td>
+      </tr>
+      <tr>
+        <td class="entry-org" colspan="2">InfoSystem Consulting</td>
+      </tr>
+    </table>
+    <ul class="bullet-list">
+      <li><strong>Offline-First CBT Architecture:</strong> Core engineer on the Anthony Whitebridge Academy (AWBA) offline Computer-Based Testing platform utilizing React, Node.js, Electron, and local SQLite / IndexedDB sync for zero-latency localized examination administration.</li>
+      <li><strong>Anti-Cheat &amp; Integrity Controls:</strong> Implemented strict browser/kiosk window lockdown protocols, blur-violation tripwires, and real-time candidate invigilation monitoring towers.</li>
+      <li><strong>Data Resiliency:</strong> Engineered fault-tolerant background data synchronization algorithms ensuring 100% data recovery during power or hardware interruptions.</li>
+      <li><strong>Database Engineering:</strong> Designed normalized relational database schemas, secure authentication middleware, and automated grade computation pipelines reducing exam processing time from hours to seconds.</li>
+    </ul>
+
+    <!-- Technical Arsenal -->
+    <h2 class="section-title">Technical Arsenal &amp; Core Competencies</h2>
+    <table class="skills-table">
+      <tr>
+        <td class="skill-category">Mobile Engineering:</td>
+        <td class="skill-items">Flutter, Dart, Riverpod State Management, GoRouter, Firebase Firestore, Supabase Mobile Auth, Mobile Offline Caching, Hardware Acceleration</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Frontend Web Stack:</td>
+        <td class="skill-items">React.js, Next.js (App Router), TypeScript, JavaScript (ES6+), Tailwind CSS, Vite, HTML5, CSS3, Netlify Deployment</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Backend &amp; Databases:</td>
+        <td class="skill-items">Node.js, Express, Electron / Desktop Runtime, Supabase, PostgreSQL, Firebase Firestore, SQLite, IndexedDB, RESTful APIs, JWT</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Architecture &amp; Tools:</td>
+        <td class="skill-items">Clean Architecture, Double-Entry Accounting Ledgers, Git, GitHub, Cursor AI, Trae AI, Claude, VS Code, Figma Prototyping, Postman</td>
+      </tr>
+    </table>
+
+    <!-- Verified Projects -->
+    <h2 class="section-title">Verified Production Deployments &amp; Engineering Nodes</h2>
+
+    <div class="project-card">
+      <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+          <td class="project-title">1. TASFUED MARKETPLACE (Campus P2P Commerce Platform)</td>
+          <td style="text-align: right; font-size: 8.5pt;"><a href="https://tasfuedmarketplace.com.ng" style="color: #b45309; font-weight: bold; text-decoration: none;">Live Platform ↗</a></td>
+        </tr>
+      </table>
+      <div class="project-stack">Stack: React, Vite, Tailwind CSS, Supabase, PostgreSQL</div>
+      <div class="project-desc">Dedicated campus e-commerce platform connecting university students for peer-to-peer commerce, verified merchant badges, in-app messaging, real-time cart routing, and sub-second indexed queries.</div>
+    </div>
+
+    <div class="project-card">
+      <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+          <td class="project-title">2. SCHEDULER (Mobile Intelligent Schedule Management)</td>
+          <td style="text-align: right; font-size: 8.5pt;"><a href="https://scheduler.nexlify.com.ng" style="color: #b45309; font-weight: bold; text-decoration: none;">Live App ↗</a></td>
+        </tr>
+      </table>
+      <div class="project-stack">Stack: Flutter, Dart, Supabase, Riverpod Architecture</div>
+      <div class="project-desc">Role-based academic timetable and lecture schedule companion featuring background lecture alarms, smart conflict resolution, exam countdown telemetry, and full offline caching.</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">3. AWBA CBT PLATFORM (Offline-First Examination Engine)</div>
+      <div class="project-stack">Stack: React, Node.js, Electron / Desktop Runtime, IndexedDB / SQLite, Tailwind CSS</div>
+      <div class="project-desc">Secure localized examination and real-time grading system engineered during Industrial Training (SIWES) at InfoSystem Consulting. Features kiosk anti-cheat lockdown, zero-internet LAN synchronization, and instant result calculation.</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">4. FINTECH PLATFORM (Neo-Banking Core &amp; Double-Entry Ledger)</div>
+      <div class="project-stack">Stack: Flutter, Firebase Firestore, Node.js, Riverpod</div>
+      <div class="project-desc">Cryptographically secured mobile wallet featuring double-entry accounting ledger guarantees, instant peer-to-peer transfers, biometric PIN safeguards, and interactive spending telemetry.</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">5. SARKIN MOTA GROUP (Automotive Luxury Showroom)</div>
+      <div class="project-stack">Stack: Next.js, TypeScript, Tailwind CSS, GSAP Motion</div>
+      <div class="project-desc">High-performance luxury automotive showroom with VIN fleet inventory tracking, service booking workflows, interactive financing calculator, and 60fps cinematic GSAP motion.</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">6. THE GILDED TABLE (Mobile Luxury Dining Companion)</div>
+      <div class="project-stack">Stack: Flutter, Dart, Supabase Auth, PostgreSQL</div>
+      <div class="project-desc">Cross-platform hospitality application featuring interactive table floor plans, tasting menu visualizers, sommelier wine pairing recommender, and VIP concierge messaging.</div>
+    </div>
+
+    <div class="project-card" style="border-bottom: none;">
+      <div class="project-title">7. THE GILDED TABLE (Culinary Command Tower &amp; Web App)</div>
+      <div class="project-stack">Stack: Next.js, TypeScript, Supabase, Tailwind CSS, PostgreSQL</div>
+      <div class="project-desc">Full-scale dining room operations suite with real-time table occupancy heatmaps, executive Kitchen Display System (KDS) synchronization, and sommelier cellar inventory management.</div>
+    </div>
+
+    <!-- Footer Note -->
+    <div class="footer-note">
+      Verified Official Engineering Dossier • Samuel Imole Patrick • Generated from <a href="https://about-sammy.netlify.app" style="color: #b45309; text-decoration: none;">about-sammy.netlify.app</a>
+    </div>
+  </div>
+</body>
+</html>
