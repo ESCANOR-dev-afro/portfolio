@@ -163,10 +163,11 @@ npm run preview
 
 ---
 
-## 🌐 Netlify Production Deployment
+## 🌐 Multi-Platform Production Deployment (Netlify & Vercel)
 
-This project is configured with a production-ready `netlify.toml` and `public/_redirects` file:
+This project is configured out-of-the-box for seamless deployment on both **Netlify** and **Vercel** with full client-side SPA routing and long-term caching.
 
+### 1. Netlify (`netlify.toml` & `public/_redirects`)
 ```toml
 [build]
   command = "npm run build"
@@ -176,11 +177,17 @@ This project is configured with a production-ready `netlify.toml` and `public/_r
   from = "/*"
   to = "/index.html"
   status = 200
+```
 
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+### 2. Vercel (`vercel.json`)
+```json
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
 ```
 
 ---
