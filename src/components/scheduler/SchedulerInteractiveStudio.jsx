@@ -18,6 +18,7 @@ import {
   Play,
   CheckCircle2,
 } from 'lucide-react';
+import OptimizedImage from '../ui/OptimizedImage';
 
 export const SCHEDULER_SCREENS = [
   {
@@ -136,11 +137,10 @@ export default function SchedulerInteractiveStudio({
             transition={{ duration: 0.22, ease: 'easeOut' }}
             className="relative w-full h-full group"
           >
-            <img
+            <OptimizedImage
               src={activeScreen.src}
               alt={activeScreen.title}
-              loading="lazy"
-              className="w-full h-full object-cover object-top"
+              className="object-top"
             />
 
             {/* Left Carousel Navigation Trigger */}

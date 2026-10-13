@@ -19,6 +19,7 @@ import {
 import SectionBadge from '../components/ui/SectionBadge';
 import HUDCorners from '../components/ui/HUDCorners';
 import CertificateLightboxModal from '../components/CertificateLightboxModal';
+import OptimizedImage from '../components/ui/OptimizedImage';
 import { usePortfolioData } from '../context/PortfolioDataContext';
 
 /**
@@ -195,11 +196,11 @@ export default function AICredentialVault() {
                   <div className="p-4 pb-0">
                     <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-black/60 border border-white/10 group-hover:border-cyber-orange/40 transition-colors">
                       {/* Image Preview */}
-                      <img
+                      <OptimizedImage
                         src={cert.image}
                         alt={cert.title}
-                        className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500 block"
-                        loading="lazy"
+                        className="object-center transform group-hover:scale-105 transition-transform duration-500"
+                        wrapperClassName="w-full h-full"
                       />
 
                       {/* Category Chip Badge */}
@@ -299,10 +300,12 @@ export default function AICredentialVault() {
                       onClick={() => openLightbox(activeCert.id)}
                       className="md:col-span-7 relative rounded-xl overflow-hidden border border-white/15 bg-black/80 shadow-2xl group cursor-pointer"
                     >
-                      <img
+                      <OptimizedImage
                         src={activeCert.image}
                         alt={activeCert.title}
-                        className="w-full h-auto object-contain block group-hover:scale-105 transition-transform duration-500"
+                        objectFit="contain"
+                        className="group-hover:scale-105 transition-transform duration-500"
+                        wrapperClassName="w-full h-auto min-h-[220px]"
                       />
                       <div className="absolute top-3 left-3 z-20 px-2.5 py-1 rounded bg-black/80 backdrop-blur-md border border-cyber-orange/30 text-[10px] font-mono text-cyber-orange font-bold">
                         CERTIFICATE {activeCert.nodeNumber} • {activeCert.category}

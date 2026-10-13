@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import SarkinMotaLogo from './SarkinMotaLogo';
 import { SARKIN_MOTA_FLEET } from '../../data/sarkinMotaVehicles';
+import OptimizedImage from '../ui/OptimizedImage';
 
 export default function VehicleTurntable({ isMobile = false }) {
   const [currentIndex, setCurrentIndex] = useState(8); // Default to Ferrari 296 GTB (09/10) as in main reference
@@ -114,14 +115,13 @@ export default function VehicleTurntable({ isMobile = false }) {
               transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="relative z-10 w-full h-full flex items-center justify-center p-2"
             >
-              <img
+              <OptimizedImage
                 src={vehicle.images.turntable}
                 alt={vehicle.name}
-                className="max-h-full max-w-full object-contain filter drop-shadow-[0_25px_30px_rgba(0,0,0,0.85)] transition-transform duration-500 hover:scale-[1.03]"
-                onError={(e) => {
-                  // Graceful fallback to full capture if single cropped asset misses
-                  e.currentTarget.src = vehicle.images.fullCapture;
-                }}
+                objectFit="contain"
+                fallbackSrc={vehicle.images.fullCapture}
+                className="filter drop-shadow-[0_25px_30px_rgba(0,0,0,0.85)] transition-transform duration-500 hover:scale-[1.03]"
+                wrapperClassName="max-h-full max-w-full flex items-center justify-center"
               />
             </motion.div>
           </AnimatePresence>

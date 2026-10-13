@@ -11,6 +11,7 @@ import {
   Edit3,
 } from 'lucide-react';
 import { compressAndConvertToBase64 } from '../../utils/fileUploadHelper';
+import OptimizedImage from '../ui/OptimizedImage';
 
 /**
  * Image Uploader Component with Device Gallery Sync & Base64 Compression
@@ -22,8 +23,8 @@ export default function ImageUploader({
   value = '',
   onChange,
   icon: Icon = ImageIcon,
-  hint = 'Upload from your device gallery or enter a public path.',
-  recommendedSize = '1600x1200 or mobile portrait',
+  hint = 'Upload from device gallery (WebP/JPEG recommended for ultra-fast 2G/3G mobile delivery) or enter public path.',
+  recommendedSize = '1600x1200 or mobile portrait (WebP/JPEG compressed)',
 }) {
   const fileInputRef = useRef(null);
   const [isProcessing, setIsProcessing] = useState(false);
@@ -118,15 +119,13 @@ export default function ImageUploader({
         <div className="p-3 rounded-xl bg-black/60 border border-orange-500/40 relative overflow-hidden flex flex-col sm:flex-row items-center gap-3.5 group shadow-inner">
           {/* Thumbnail Box */}
           <div className="w-full sm:w-28 h-20 sm:h-20 rounded-lg bg-black/80 border border-white/10 overflow-hidden shrink-0 flex items-center justify-center relative">
-            <img
+            <OptimizedImage
               src={value}
               alt="Uploaded Asset"
-              className="w-full h-full object-cover object-top"
-              onError={(e) => {
-                e.target.style.display = 'none';
-              }}
+              className="object-top"
+              wrapperClassName="w-full h-full"
             />
-            <span className="absolute bottom-1 right-1 px-1 py-0.5 rounded bg-black/80 text-[8px] font-mono text-white/70">
+            <span className="absolute bottom-1 right-1 px-1 py-0.5 rounded bg-black/80 text-[8px] font-mono text-white/70 z-10">
               {isBase64 ? 'LOCAL UPLOAD' : 'STATIC PATH'}
             </span>
           </div>

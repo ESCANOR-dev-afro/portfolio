@@ -13,6 +13,7 @@ import {
 import SarkinMotaLogo from './SarkinMotaLogo';
 import VehicleTurntable from './VehicleTurntable';
 import { SARKIN_MOTA_FLEET } from '../../data/sarkinMotaVehicles';
+import OptimizedImage from '../ui/OptimizedImage';
 
 export default function ShowroomStudio({ isMobile = false }) {
   const [viewMode, setViewMode] = useState('turntable'); // 'turntable' | 'gallery' | 'specs'
@@ -63,10 +64,11 @@ export default function ShowroomStudio({ isMobile = false }) {
           /* CINEMATIC GARAGE / FLEET GALLERY */
           <div className="p-4 space-y-4 text-left">
             <div className="relative rounded-xl overflow-hidden border border-amber-500/30 group">
-              <img
+              <OptimizedImage
                 src="/screenshots/sarkin-mota/sarkin-landing-desktop.png"
                 alt="Sarkin Mota Group Hero Showroom"
-                className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
+                className="group-hover:scale-105 transition-transform duration-700"
+                wrapperClassName="w-full h-auto min-h-[180px] max-h-[340px]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent flex flex-col justify-end p-4">
                 <span className="text-[9px] font-mono text-amber-400 tracking-widest uppercase">
@@ -84,10 +86,11 @@ export default function ShowroomStudio({ isMobile = false }) {
             {/* Grid of Authentic Showroom Captures */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="rounded-lg overflow-hidden border border-white/10 bg-white/[0.02] p-2">
-                <img
+                <OptimizedImage
                   src="/screenshots/sarkin-mota/sarkin-ferrari-296gtb-turntable.png"
                   alt="Ferrari 296 GTB Turntable"
-                  className="w-full h-40 object-cover rounded"
+                  className="rounded"
+                  wrapperClassName="w-full h-40 rounded"
                 />
                 <div className="mt-2 flex justify-between items-center text-xs">
                   <span className="font-bold text-white">Ferrari 296 GTB Assetto Fiorano</span>
@@ -96,10 +99,11 @@ export default function ShowroomStudio({ isMobile = false }) {
               </div>
 
               <div className="rounded-lg overflow-hidden border border-white/10 bg-white/[0.02] p-2">
-                <img
+                <OptimizedImage
                   src="/screenshots/sarkin-mota/sarkin-cybertruck-turntable.png"
                   alt="Tesla Cybertruck Cyberbeast"
-                  className="w-full h-40 object-cover rounded"
+                  className="rounded"
+                  wrapperClassName="w-full h-40 rounded"
                 />
                 <div className="mt-2 flex justify-between items-center text-xs">
                   <span className="font-bold text-white">Tesla Cybertruck Cyberbeast</span>
@@ -108,10 +112,11 @@ export default function ShowroomStudio({ isMobile = false }) {
               </div>
 
               <div className="rounded-lg overflow-hidden border border-white/10 bg-white/[0.02] p-2">
-                <img
+                <OptimizedImage
                   src="/screenshots/sarkin-mota/sarkin-urus-turntable.png"
                   alt="Lamborghini Urus Performante"
-                  className="w-full h-40 object-cover rounded"
+                  className="rounded"
+                  wrapperClassName="w-full h-40 rounded"
                 />
                 <div className="mt-2 flex justify-between items-center text-xs">
                   <span className="font-bold text-white">Lamborghini Urus Performante</span>
@@ -120,10 +125,11 @@ export default function ShowroomStudio({ isMobile = false }) {
               </div>
 
               <div className="rounded-lg overflow-hidden border border-white/10 bg-white/[0.02] p-2">
-                <img
+                <OptimizedImage
                   src="/screenshots/sarkin-mota/sarkin-bmw-760i-mobile.png"
                   alt="BMW 760i xDrive Excellence"
-                  className="w-full h-40 object-cover rounded"
+                  className="rounded"
+                  wrapperClassName="w-full h-40 rounded"
                 />
                 <div className="mt-2 flex justify-between items-center text-xs">
                   <span className="font-bold text-white">BMW 760i xDrive Excellence</span>

@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import VehicleTurntable from '../sarkin-mota/VehicleTurntable';
 import SchedulerInteractiveStudio from '../scheduler/SchedulerInteractiveStudio';
+import OptimizedImage from './OptimizedImage';
 
 /**
  * Custom Project Simulated Screen Content (Fallback when screenshots are not available)
@@ -359,11 +360,11 @@ export default function DeviceViewports({ project }) {
               <div className="flex-1 overflow-hidden relative z-10 bg-black">
                 {hasScreenshots && currentMobileScreenshot && !isMobileInteractive ? (
                   <div className="relative w-full h-full">
-                    <img
+                    <OptimizedImage
                       src={currentMobileScreenshot}
                       alt={`${project.title} Mobile View`}
-                      loading="lazy"
-                      className="w-full h-full object-cover object-top"
+                      className="object-top"
+                      fallbackSrc={project.image}
                     />
 
                     {/* Left/Right Mobile Carousel Controls */}
@@ -476,11 +477,11 @@ export default function DeviceViewports({ project }) {
               <div className="flex-1 overflow-hidden relative bg-black">
                 {hasScreenshots && currentDesktopScreenshot && !isDesktopInteractive ? (
                   <div className="relative w-full h-full">
-                    <img
+                    <OptimizedImage
                       src={currentDesktopScreenshot}
                       alt={`${project.title} Desktop View`}
-                      loading="lazy"
-                      className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.01]"
+                      className="object-top transition-transform duration-500 group-hover:scale-[1.01]"
+                      fallbackSrc={project.mobileImage}
                     />
 
                     {/* Carousel Nav Arrows on Desktop */}

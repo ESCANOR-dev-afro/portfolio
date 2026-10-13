@@ -15,6 +15,7 @@ import {
   Cpu,
 } from 'lucide-react';
 import HUDCorners from './ui/HUDCorners';
+import OptimizedImage from './ui/OptimizedImage';
 
 /**
  * High-Res Certificate Inspection & Details Modal
@@ -138,11 +139,13 @@ export default function CertificateLightboxModal({
                   <div className="absolute inset-0 hud-scanline opacity-[0.08] pointer-events-none z-10" />
 
                   {/* Certificate Image */}
-                  <img
+                  <OptimizedImage
                     src={certificate.image}
                     alt={certificate.title}
-                    className="w-full h-auto object-contain block transition-transform duration-500 group-hover:scale-[1.01]"
-                    loading="eager"
+                    priority={true}
+                    objectFit="contain"
+                    className="transition-transform duration-500 group-hover:scale-[1.01]"
+                    wrapperClassName="w-full h-auto min-h-[260px] sm:min-h-[340px]"
                   />
 
                   {/* Zoom Badge */}
