@@ -647,7 +647,7 @@ export const developerProfile = {
   phone: '+234 814 922 4954',
   github: 'https://github.com/ESCANOR-dev-afro',
   linkedin: 'https://www.linkedin.com/in/samuel-patrick-722b82423',
-  portfolioUrl: 'https://about-sammy.netlify.app',
+  portfolioUrl: 'https://about-sammy.vercel.app',
   bio: 'Full-Stack Software Engineer with hands-on experience building production web and mobile apps with React, Next.js, Flutter, and PostgreSQL. Passionate about clean code, intuitive design, and building reliable digital systems.',
   education: {
     degree: 'Bachelor of Science (B.Sc.) in Computer Science',

@@ -182,7 +182,7 @@
       </tr>
       <tr>
         <td><strong>Phone / WhatsApp:</strong> <a href="tel:+2348149224954">+234 814 922 4954</a></td>
-        <td><strong>Portfolio:</strong> <a href="https://about-sammy.netlify.app">about-sammy.netlify.app</a></td>
+        <td><strong>Portfolio:</strong> <a href="https://about-sammy.vercel.app">about-sammy.vercel.app</a></td>
       </tr>
       <tr>
         <td><strong>GitHub:</strong> <a href="https://github.com/ESCANOR-dev-afro">github.com/ESCANOR-dev-afro</a></td>
@@ -308,7 +308,7 @@
 
     <!-- Footer Note -->
     <div class="footer-note">
-      Verified Official Engineering Dossier • Samuel Imole Patrick • Generated from <a href="https://about-sammy.netlify.app" style="color: #b45309; text-decoration: none;">about-sammy.netlify.app</a>
+      Verified Official Engineering Dossier • Samuel Imole Patrick • Generated from <a href="https://about-sammy.vercel.app" style="color: #b45309; text-decoration: none;">about-sammy.vercel.app</a>
     </div>
   </div>
 </body>

@@ -16,7 +16,7 @@ CONTACT & PROFILE:
 • LinkedIn: https://www.linkedin.com/in/samuel-patrick-722b82423
 • GitHub: https://github.com/ESCANOR-dev-afro
 • TikTok: @sammy.dev1 (https://www.tiktok.com/@sammy.dev1)
-• Portfolio: https://about-sammy.netlify.app
+• Portfolio: https://about-sammy.vercel.app
 
 ================================================================================
 EXECUTIVE PROFILE & SUMMARY
@@ -281,7 +281,7 @@ export function generateMasterCVDocHTML() {
       </tr>
       <tr>
         <td><strong>Phone / WhatsApp:</strong> +234 814 922 4954</td>
-        <td><strong>Portfolio:</strong> <a href="https://about-sammy.netlify.app">about-sammy.netlify.app</a></td>
+        <td><strong>Portfolio:</strong> <a href="https://about-sammy.vercel.app">about-sammy.vercel.app</a></td>
       </tr>
       <tr>
         <td><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/samuel-patrick-722b82423">linkedin.com/in/samuel-patrick-722b82423</a></td>
@@ -407,7 +407,7 @@ export function generateMasterCVDocHTML() {
 
     <!-- Footer Note -->
     <div class="footer-note">
-      Official Resume &amp; Portfolio • Samuel Imole Patrick • <a href="https://about-sammy.netlify.app" style="color: #b45309; text-decoration: none;">about-sammy.netlify.app</a>
+      Official Resume &amp; Portfolio • Samuel Imole Patrick • <a href="https://about-sammy.vercel.app" style="color: #b45309; text-decoration: none;">about-sammy.vercel.app</a>
     </div>
   </div>
 </body>

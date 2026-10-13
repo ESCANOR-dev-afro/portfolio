@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Github, Linkedin, Send } from 'lucide-react';
+import { motion } from 'framer-motion';
 import ThemeToggle from './ui/ThemeToggle';
 
 /* =========================================================================
@@ -153,14 +152,14 @@ export default function TelemetryHUD({ onContactClick }) {
   };
 
   return (
-    <header className="fixed top-1.5 sm:top-3 inset-x-0 z-50 select-none pointer-events-none px-1.5 sm:px-4 max-w-[1240px] mx-auto">
+    <header className="fixed top-1 sm:top-2.5 inset-x-0 z-50 select-none pointer-events-none px-1.5 sm:px-4 max-w-[1240px] mx-auto">
       <div className="flex items-center justify-center w-full">
-        <div className="flex items-center space-x-1.5 sm:space-x-2.5 w-full max-w-[1140px] relative pointer-events-auto">
+        <div className="flex items-center space-x-1 xs:space-x-1.5 sm:space-x-2.5 w-full max-w-[1140px] relative pointer-events-auto">
           {/* =========================================================================
               UNIFIED CONTROL DECK CONTAINER (Mobile, Tablet, Desktop)
-              Interlocking 3-segment geometry with 0 gaps, matching heights & continuous rails
+              Interlocking 3-segment geometry with min-w-0 flex isolation for guaranteed mobile fitting
               ========================================================================= */}
-          <div className="flex items-stretch flex-1 h-[46px] xs:h-[48px] sm:h-[54px] relative filter drop-shadow-[0_8px_30px_rgba(0,0,0,0.95)]">
+          <div className="flex items-stretch flex-1 min-w-0 h-[44px] xs:h-[48px] sm:h-[54px] relative filter drop-shadow-[0_8px_30px_rgba(0,0,0,0.95)]">
             {/* -----------------------------------------------------------------------
                 1. LEFT POD: BRAND & LIVE TELEMETRY ([ESCANOR] + ONLINE)
                 Polygon: Left apex point (<), top straight, right angled slant (/)
@@ -170,7 +169,7 @@ export default function TelemetryHUD({ onContactClick }) {
               style={{
                 clipPath: 'polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 10px 100%, 0 50%)',
               }}
-              className="relative shrink-0 w-[92px] xs:w-[118px] sm:w-[175px] md:w-[220px] h-full bg-gradient-to-b from-[#4a4f58] via-[#242730] to-[#12141a] p-[1.5px] cursor-pointer z-30 group"
+              className="relative shrink-0 w-[84px] xs:w-[105px] sm:w-[175px] md:w-[220px] h-full bg-gradient-to-b from-[#4a4f58] via-[#242730] to-[#12141a] p-[1.5px] cursor-pointer z-30 group"
             >
               {/* Middle Orange Border Layer */}
               <div
@@ -184,7 +183,7 @@ export default function TelemetryHUD({ onContactClick }) {
                   style={{
                     clipPath: 'polygon(8px 0, 100% 0, calc(100% - 10px) 100%, 8px 100%, 2px 50%)',
                   }}
-                  className="w-full h-full bg-gradient-to-r from-[#0c0e12] via-[#12151c] to-[#0f1117] pl-2 xs:pl-3 sm:pl-5 pr-1.5 sm:pr-3 py-1 sm:py-1.5 flex flex-col justify-center relative"
+                  className="w-full h-full bg-gradient-to-r from-[#0c0e12] via-[#12151c] to-[#0f1117] pl-1.5 xs:pl-2.5 sm:pl-5 pr-1 sm:pr-3 py-1 sm:py-1.5 flex flex-col justify-center relative"
                 >
                   {/* Subtle Ambient Orange Glow Texture */}
                   <div className="absolute inset-0 bg-gradient-to-tr from-cyber-orange/20 via-transparent to-transparent pointer-events-none" />
@@ -195,7 +194,7 @@ export default function TelemetryHUD({ onContactClick }) {
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00FF66] opacity-75" />
                       <span className="relative inline-flex rounded-full h-1 w-1 sm:h-1.5 sm:w-1.5 bg-[#00FF66] shadow-[0_0_8px_#00FF66]" />
                     </span>
-                    <span className="font-mono text-[6.5px] xs:text-[7.5px] sm:text-[9px] font-extrabold text-[#00FF66] tracking-[0.12em] sm:tracking-[0.18em] uppercase drop-shadow-[0_0_6px_rgba(0,255,102,0.6)]">
+                    <span className="font-mono text-[6px] xs:text-[7.5px] sm:text-[9px] font-extrabold text-[#00FF66] tracking-[0.08em] sm:tracking-[0.18em] uppercase drop-shadow-[0_0_6px_rgba(0,255,102,0.6)]">
                       ONLINE
                     </span>
                     <span className="text-[6.5px] sm:text-[8px] font-mono text-white/40 hidden sm:inline">
@@ -206,13 +205,13 @@ export default function TelemetryHUD({ onContactClick }) {
                   {/* Bottom Row: -= [ESCANOR] =- with Restored Telemetry Framing & Crown Battlements */}
                   <div className="flex items-center space-x-0.5 xs:space-x-1 sm:space-x-1.5 relative z-10 leading-none">
                     <CrownGlyph className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-cyber-orange drop-shadow-[0_0_6px_rgba(255,106,0,0.85)] shrink-0 hidden xs:inline" />
-                    <span className="font-mono text-[7px] xs:text-[8.5px] sm:text-[10.5px] font-black text-cyber-orange drop-shadow-[0_0_6px_rgba(255,106,0,0.8)] select-none">
+                    <span className="font-mono text-[6.5px] xs:text-[8.5px] sm:text-[10.5px] font-black text-cyber-orange drop-shadow-[0_0_6px_rgba(255,106,0,0.8)] select-none">
                       -=
                     </span>
-                    <span className="font-display font-black text-[8px] xs:text-[9.5px] sm:text-xs md:text-[13px] tracking-[0.05em] sm:tracking-[0.12em] text-white uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] truncate group-hover:text-cyber-bright transition-colors">
+                    <span className="font-display font-black text-[7.5px] xs:text-[9.5px] sm:text-xs md:text-[13px] tracking-[0.02em] sm:tracking-[0.12em] text-white uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] truncate group-hover:text-cyber-bright transition-colors">
                       [ESCANOR]
                     </span>
-                    <span className="font-mono text-[7px] xs:text-[8.5px] sm:text-[10.5px] font-black text-cyber-orange drop-shadow-[0_0_6px_rgba(255,106,0,0.8)] select-none">
+                    <span className="font-mono text-[6.5px] xs:text-[8.5px] sm:text-[10.5px] font-black text-cyber-orange drop-shadow-[0_0_6px_rgba(255,106,0,0.8)] select-none">
                       =-
                     </span>
                     <CrownGlyph className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-cyber-orange drop-shadow-[0_0_6px_rgba(255,106,0,0.85)] shrink-0 hidden xs:inline" />
@@ -223,14 +222,13 @@ export default function TelemetryHUD({ onContactClick }) {
 
             {/* -----------------------------------------------------------------------
                 2. MIDDLE CHANNEL: NAVIGATION DECK
-                Seamless interlock with Left Pod (-ml-[10px] sm:-ml-[14px]) and Right Pod (-mr-[10px] sm:-mr-[14px])
-                Polygon: Slanted left seam (/), top rail, slanted right seam (/)
+                Seamless interlock with Left Pod and Right Pod with min-w-0 for flex containment
                 ----------------------------------------------------------------------- */}
             <nav
               style={{
                 clipPath: 'polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%)',
               }}
-              className="relative flex-1 -ml-[10px] sm:-ml-[14px] -mr-[10px] sm:-mr-[14px] h-full bg-[#090b0f] z-20 border-y border-cyber-orange/40 overflow-hidden"
+              className="relative flex-1 min-w-0 -ml-[10px] sm:-ml-[14px] -mr-[10px] sm:-mr-[14px] h-full bg-[#090b0f] z-20 border-y border-cyber-orange/40 overflow-hidden"
             >
               {/* Top Continuous Laser Border (Aligned with Pods) */}
               <div className="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-cyber-orange via-cyber-bright to-cyber-orange shadow-[0_0_10px_var(--color-cyber-orange)] z-30" />
@@ -239,7 +237,7 @@ export default function TelemetryHUD({ onContactClick }) {
               <div className="absolute bottom-0 inset-x-0 h-[2px] sm:h-[2.5px] bg-[#1a1d24] border-t border-cyber-orange/40 shadow-[0_0_6px_rgba(255,106,0,0.25)] z-30" />
 
               {/* Nav Items Container (Responsive Flex + Smooth Scroll on Narrow Screens) */}
-              <div className="w-full h-full flex items-center justify-between sm:justify-around px-2 xs:px-3 sm:px-5 overflow-x-auto no-scrollbar">
+              <div className="w-full h-full flex items-center justify-between sm:justify-around px-1.5 xs:px-2.5 sm:px-5 overflow-x-auto no-scrollbar scroll-smooth">
                 {navItems.map((item) => {
                   const Icon = item.icon;
                   const isActive = activeSection === item.id;
@@ -265,7 +263,7 @@ export default function TelemetryHUD({ onContactClick }) {
 
                       {/* Label */}
                       <span
-                        className={`font-mono text-[6.5px] xs:text-[7.5px] sm:text-[9px] lg:text-[10px] font-black tracking-[0.08em] sm:tracking-[0.14em] uppercase transition-colors leading-none ${
+                        className={`font-mono text-[6.5px] xs:text-[7.5px] sm:text-[9px] lg:text-[10px] font-black tracking-[0.06em] sm:tracking-[0.14em] uppercase transition-colors leading-none ${
                           isActive
                             ? 'text-cyber-bright glow-orange'
                             : 'text-[#a1a1aa] group-hover/item:text-white'
@@ -307,7 +305,7 @@ export default function TelemetryHUD({ onContactClick }) {
               style={{
                 clipPath: 'polygon(10px 0, calc(100% - 10px) 0, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%)',
               }}
-              className="relative shrink-0 w-[74px] xs:w-[90px] sm:w-[135px] md:w-[170px] h-full bg-gradient-to-b from-[#4a4f58] via-[#242730] to-[#12141a] p-[1.5px] z-30 group"
+              className="relative shrink-0 w-[66px] xs:w-[82px] sm:w-[135px] md:w-[170px] h-full bg-gradient-to-b from-[#4a4f58] via-[#242730] to-[#12141a] p-[1.5px] z-30 group"
             >
               {/* Middle Orange Border Layer */}
               <div
@@ -322,14 +320,14 @@ export default function TelemetryHUD({ onContactClick }) {
                   style={{
                     clipPath: 'polygon(8px 0, calc(100% - 9px) 0, 100% 9px, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%)',
                   }}
-                  className="w-full h-full bg-gradient-to-r from-[#0d0f14] via-[#141720] to-[#0c0e12] hover:from-[#181b24] hover:to-[#12141b] px-1.5 xs:px-2.5 sm:px-4 flex items-center justify-center cursor-pointer transition-all duration-300 relative group/btn"
+                  className="w-full h-full bg-gradient-to-r from-[#0d0f14] via-[#141720] to-[#0c0e12] hover:from-[#181b24] hover:to-[#12141b] px-1 xs:px-2 sm:px-4 flex items-center justify-center cursor-pointer transition-all duration-300 relative group/btn"
                 >
                   {/* Subtle Orange Hover Ambient Backing */}
                   <div className="absolute inset-0 bg-cyber-orange/0 group-hover/btn:bg-cyber-orange/15 transition-colors pointer-events-none" />
 
                   {/* Inner Dark Button Capsule framing LET'S BUILD */}
-                  <div className="relative z-10 px-1.5 xs:px-2.5 sm:px-3 py-1 sm:py-1.5 rounded bg-black/85 border border-white/10 group-hover/btn:border-cyber-orange/60 shadow-inner">
-                    <span className="font-display font-black text-[7.5px] xs:text-[9px] sm:text-xs tracking-[0.06em] sm:tracking-[0.14em] text-white uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] group-hover/btn:text-cyber-bright group-hover/btn:drop-shadow-[0_0_8px_rgba(255,106,0,0.8)] transition-all whitespace-nowrap">
+                  <div className="relative z-10 px-1 xs:px-2 sm:px-3 py-1 sm:py-1.5 rounded bg-black/85 border border-white/10 group-hover/btn:border-cyber-orange/60 shadow-inner">
+                    <span className="font-display font-black text-[7px] xs:text-[8.5px] sm:text-xs tracking-[0.04em] sm:tracking-[0.14em] text-white uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] group-hover/btn:text-cyber-bright group-hover/btn:drop-shadow-[0_0_8px_rgba(255,106,0,0.8)] transition-all whitespace-nowrap">
                       <span className="hidden xs:inline">LET'S </span>BUILD
                     </span>
                   </div>
@@ -338,8 +336,8 @@ export default function TelemetryHUD({ onContactClick }) {
             </div>
           </div>
 
-          {/* 4. THEME TOGGLE (Sun / Moon Switcher) */}
-          <div className="shrink-0 h-[46px] xs:h-[48px] sm:h-[54px] flex items-center">
+          {/* 4. THEME TOGGLE (Sun / Moon Switcher) — Always Fully Visible & Proportionate */}
+          <div className="shrink-0 h-[44px] xs:h-[48px] sm:h-[54px] flex items-center z-30">
             <ThemeToggle className="h-full" />
           </div>
         </div>

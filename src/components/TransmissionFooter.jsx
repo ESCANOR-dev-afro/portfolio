@@ -111,7 +111,7 @@ export default function TransmissionFooter({ onContactClick }) {
             <div className="mt-auto pt-4 space-y-1.5 text-[10px] font-mono text-white/30 bg-black/20 p-3 rounded-lg border border-white/5">
               <div className="flex items-center space-x-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
-                <span>ENVIRONMENT: PRODUCTION (NETLIFY)</span>
+                <span>ENVIRONMENT: PRODUCTION (VERCEL)</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />

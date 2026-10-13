@@ -104,8 +104,8 @@ export function generateSamuelPatrickCV() {
   p1Annots.push({ x1: 65, y1: 752, x2: 215, y2: 765, url: 'mailto:samuelimolepatrick@gmail.com' });
   p1Annots.push({ x1: 260, y1: 752, x2: 350, y2: 765, url: 'tel:+2348149224954' });
 
-  p1Stream += `BT\n/F1 8.5 Tf\n0.8 0.85 0.9 rg\n40 742 Td\n(${escapePDF('Portfolio: about-sammy.netlify.app   |   GitHub: github.com/ESCANOR-dev-afro   |   LinkedIn: samuel-patrick')}) Tj\nET\n`;
-  p1Annots.push({ x1: 75, y1: 739, x2: 185, y2: 752, url: 'https://about-sammy.netlify.app' });
+  p1Stream += `BT\n/F1 8.5 Tf\n0.8 0.85 0.9 rg\n40 742 Td\n(${escapePDF('Portfolio: about-sammy.vercel.app   |   GitHub: github.com/ESCANOR-dev-afro   |   LinkedIn: samuel-patrick')}) Tj\nET\n`;
+  p1Annots.push({ x1: 75, y1: 739, x2: 185, y2: 752, url: 'https://about-sammy.vercel.app' });
   p1Annots.push({ x1: 230, y1: 739, x2: 385, y2: 752, url: 'https://github.com/ESCANOR-dev-afro' });
   p1Annots.push({ x1: 435, y1: 739, x2: 520, y2: 752, url: 'https://www.linkedin.com/in/samuel-patrick-722b82423' });
 
@@ -177,7 +177,7 @@ export function generateSamuelPatrickCV() {
   // Page 1 Footer
   p1Stream += `0.85 0.88 0.92 RG\n0.5 w\n40 30 m 555 30 l\nS\n`;
   p1Stream += `BT\n/F1 7.5 Tf\n0.5 0.55 0.6 rg\n40 18 Td\n(${escapePDF('Samuel Imole Patrick • Master Curriculum Vitae • Page 1 of 2')}) Tj\nET\n`;
-  p1Stream += `BT\n/F1 7.5 Tf\n0.5 0.55 0.6 rg\n450 18 Td\n(${escapePDF('Verified Portfolio: about-sammy.netlify.app')}) Tj\nET\n`;
+  p1Stream += `BT\n/F1 7.5 Tf\n0.5 0.55 0.6 rg\n450 18 Td\n(${escapePDF('Verified Portfolio: about-sammy.vercel.app')}) Tj\nET\n`;
 
   // --------------------------------------------------------------------------
   // Page 2: Key Production Deployments & Engineering Nodes

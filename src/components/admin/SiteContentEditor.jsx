@@ -553,7 +553,7 @@ export default function SiteContentEditor({
                   type="url"
                   value={formData.contact?.portfolioUrl || ''}
                   onChange={(e) => handleFieldChange('contact', 'portfolioUrl', e.target.value)}
-                  placeholder="https://about-sammy.netlify.app"
+                  placeholder="https://about-sammy.vercel.app"
                   className="w-full bg-black/60 border border-white/15 focus:border-orange-500 rounded-xl px-4 py-2.5 text-white text-sm font-mono outline-none"
                 />
               </div>

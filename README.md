@@ -1,7 +1,7 @@
 # 亗『ESCANOR』亗 — Samuel Imole Patrick
 ### Full-Stack Web & Mobile Software Engineer Portfolio
 
-[![Live Production Portfolio](https://img.shields.io/badge/LIVE%20DEMO-about--sammy.netlify.app-ff6a00?style=for-the-badge&logo=netlify&logoColor=white)](https://about-sammy.netlify.app)
+[![Live Production Portfolio](https://img.shields.io/badge/LIVE%20DEMO-about--sammy.vercel.app-ff6a00?style=for-the-badge&logo=vercel&logoColor=white)](https://about-sammy.vercel.app)
 [![React 19](https://img.shields.io/badge/React-19.1.0-202a36?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.3.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4.1.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -14,8 +14,8 @@
 
 Welcome to the official repository for **Samuel Imole Patrick's (ESCANOR)** interactive software engineering portfolio. Engineered from the ground up to reflect modern, production-grade web architecture, this platform blends a cinematic **Cyber-HUD Control Deck aesthetic** with enterprise-level performance, mobile-first responsiveness, and complete content autonomy via an integrated `/admin` command center.
 
-> **Live Deployment:** [https://about-sammy.netlify.app](https://about-sammy.netlify.app)  
-> **Master Admin Console:** `https://about-sammy.netlify.app/admin` *(Passcode Protected)*
+> **Live Deployment:** [https://about-sammy.vercel.app](https://about-sammy.vercel.app)  
+> **Master Admin Console:** `https://about-sammy.vercel.app/admin` *(Passcode Protected)*
 
 ---
 
@@ -197,7 +197,7 @@ This project is configured out-of-the-box for seamless deployment on both **Netl
 * **Engineer:** Samuel Imole Patrick (`ESCANOR`)
 * **Email:** [samuelimolepatrick@gmail.com](mailto:samuelimolepatrick@gmail.com)
 * **Phone / WhatsApp:** [+234 814 922 4954](tel:+2348149224954)
-* **Portfolio:** [about-sammy.netlify.app](https://about-sammy.netlify.app)
+* **Portfolio:** [about-sammy.vercel.app](https://about-sammy.vercel.app)
 * **GitHub:** [@ESCANOR-dev-afro](https://github.com/ESCANOR-dev-afro)
 * **LinkedIn:** [Samuel Patrick](https://www.linkedin.com/in/samuel-patrick-722b82423)
 * **TikTok:** [@sammy.dev1](https://www.tiktok.com/@sammy.dev1)

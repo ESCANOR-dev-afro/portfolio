@@ -51,7 +51,7 @@ export const defaultSiteContent = {
     phone: defaultDeveloperProfile.phone || '+234 814 922 4954',
     github: defaultDeveloperProfile.github || 'https://github.com/ESCANOR-dev-afro',
     linkedin: defaultDeveloperProfile.linkedin || 'https://www.linkedin.com/in/samuel-patrick-722b82423',
-    portfolioUrl: defaultDeveloperProfile.portfolioUrl || 'https://about-sammy.netlify.app',
+    portfolioUrl: defaultDeveloperProfile.portfolioUrl || 'https://about-sammy.vercel.app',
     bookingUrl: '',
     consultationNotice: 'Strictly confidential. Direct engineer review guaranteed.',
   },

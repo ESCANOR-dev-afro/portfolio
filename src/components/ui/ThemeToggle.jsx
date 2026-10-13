@@ -11,7 +11,7 @@ export default function ThemeToggle({ className = '', variant = 'hud' }) {
         onClick={toggleTheme}
         aria-label={`Switch to ${isDark ? 'Light' : 'Dark'} Mode`}
         title={`Switch to ${isDark ? 'Light' : 'Dark'} Mode`}
-        className={`p-2 rounded-xl transition-all cursor-pointer flex items-center justify-center ${
+        className={`p-2 rounded-xl transition-all cursor-pointer flex items-center justify-center shrink-0 active:scale-95 ${
           isDark
             ? 'bg-white/5 hover:bg-orange-500/20 text-white/70 hover:text-orange-400 border border-white/10'
             : 'bg-slate-100 hover:bg-amber-500/20 text-slate-700 hover:text-amber-600 border border-slate-200 shadow-sm'
@@ -30,16 +30,16 @@ export default function ThemeToggle({ className = '', variant = 'hud' }) {
     );
   }
 
-  // HUD Variant for Navigation Bar
+  // HUD Variant for Navigation Bar with Adaptive Mobile Proportions
   return (
     <button
       onClick={toggleTheme}
       aria-label={`Toggle Theme Mode (Current: ${isDark ? 'Dark' : 'Light'})`}
       title={`Switch to ${isDark ? 'Light Corporate View' : 'Dark Cyber View'}`}
-      className={`relative flex items-center justify-center p-1.5 xs:p-2 sm:px-2.5 rounded-lg transition-all cursor-pointer group ${
+      className={`relative flex items-center justify-center shrink-0 w-[38px] xs:w-[42px] sm:w-auto h-full px-2 sm:px-3 rounded-lg sm:rounded-xl transition-all cursor-pointer group select-none active:scale-95 ${
         isDark
-          ? 'bg-black/60 hover:bg-orange-500/15 border border-white/10 hover:border-orange-500/40 text-white/70 hover:text-orange-400'
-          : 'bg-slate-100 hover:bg-amber-500/15 border border-slate-300 hover:border-amber-500/40 text-slate-700 hover:text-amber-600 shadow-sm'
+          ? 'bg-gradient-to-b from-[#181a20] via-[#12141a] to-[#0c0e12] hover:from-[#222630] hover:to-[#141720] border border-cyber-orange/40 hover:border-cyber-orange text-white/80 hover:text-cyber-bright shadow-[0_4px_15px_rgba(0,0,0,0.85),0_0_10px_rgba(255,106,0,0.15)]'
+          : 'bg-gradient-to-b from-white via-slate-50 to-slate-100 hover:from-white hover:to-slate-200 border border-amber-500/40 hover:border-amber-500 text-slate-800 hover:text-amber-600 shadow-[0_4px_15px_rgba(0,0,0,0.1),0_0_10px_rgba(245,158,11,0.2)]'
       } ${className}`}
     >
       <motion.div
