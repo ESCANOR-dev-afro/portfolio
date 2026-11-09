@@ -1,0 +1,25 @@
+{
+  "short_name": "Samuel Patrick Imole",
+  "name": "Samuel Patrick Imole (ESCANOR) | Full-Stack & Mobile Developer",
+  "description": "Portfolio of Samuel Patrick Imole (ESCANOR) — Full-Stack Web & Cross-Platform Mobile Application Developer, CEO & Founder of TASFUED Marketplace, and CBT Examination Engine Architect.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/screenshots/tasfued-landing.png",
+      "type": "image/png",
+      "sizes": "1200x630"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0A0A0C",
+  "theme_color": "#0A0A0C",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "en-US"
+}
+

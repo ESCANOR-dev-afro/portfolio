@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6A00" />
+      <stop offset="100%" stop-color="#FFB703" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1117" />
+      <stop offset="100%" stop-color="#07090D" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bgGrad)" stroke="#FF6A00" stroke-width="4" stroke-opacity="0.8" />
+  <!-- Accent Tech Crosshair Corners -->
+  <path d="M12 28 V12 H28" stroke="#FFB703" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M116 28 V12 H100" stroke="#FFB703" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M12 100 V116 H28" stroke="#FFB703" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M116 100 V116 H100" stroke="#FFB703" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <!-- Center Monogram "E" / "SPI" Brand Glyphs -->
+  <text x="64" y="78" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif" font-weight="900" font-size="52" fill="url(#cyberGrad)" text-anchor="middle" letter-spacing="1">E</text>
+  <!-- Pulse indicator dot -->
+  <circle cx="86" cy="46" r="4.5" fill="#38BDF8" />
+</svg>
+

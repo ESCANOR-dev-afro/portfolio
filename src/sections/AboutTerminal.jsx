@@ -115,22 +115,22 @@ export default function AboutTerminal() {
             <SectionBadge>{about.badge || 'About Me • Background & Experience'}</SectionBadge>
 
             <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-white font-display">
-              {about.title || 'About Samuel Patrick'}
+              {about.title || 'About Samuel Patrick Imole'}
             </h2>
             <div className="w-16 h-1 bg-gradient-to-r from-orange-500 to-amber-500 mt-4 mb-8 rounded-full" />
 
             <div className="space-y-5 text-white/80 font-sans text-sm leading-relaxed">
               <p>
                 {about.paragraph1 ||
-                  'I am a Full-Stack Web and Mobile Application Developer studying Computer Science at Tai Solarin Federal University of Education (TASFUED) in Ogun State, Nigeria.'}
+                  'I am Samuel Patrick Imole (ESCANOR), a Full-Stack Web and Cross-Platform Mobile Application Developer and CEO & Founder of TASFUED Marketplace, currently in my 300 level studying Computer Science at Tai Solarin Federal University of Education (TASUED), Ogun State, Nigeria.'}
               </p>
               <p>
                 {about.paragraph2 ||
-                  'During my 3-month Industrial Training (SIWES) at InfoSystem Consulting, I engineered core offline database structures, authentication middleware, and localized testing systems like the AWBA CBT platform.'}
+                  'As an Enterprise Software Engineer at Escanor Tech & Software Solutions and InfoSystem Consulting, I engineered core offline database architectures, local network synchronization, kiosk anti-cheat lockdown security, and high-performance CBT examination engines like the AWBA CBT platform.'}
               </p>
               <p>
                 {about.paragraph3 ||
-                  'My core toolset spans React, Next.js, TypeScript, Flutter, Dart, Supabase, PostgreSQL, and Firebase. I combine solid computer science fundamentals and database optimization with clean design to build software that performs reliably at scale.'}
+                  'My core engineering stack spans Next.js, React, TypeScript, JavaScript, Flutter, Dart, Riverpod, GoRouter, Supabase, PostgreSQL, Firebase, SQLite, and IndexedDB. I specialize in offline-first systems, school management engines, and responsive enterprise applications.'}
               </p>
             </div>
 

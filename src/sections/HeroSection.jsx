@@ -217,7 +217,12 @@ export default function HeroSection({ onProjectsClick, onContactClick }) {
       <FloatingTelemetryCards />
 
       {/* === Layer 5: Main Content === */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center relative z-20 pt-32 pb-16 text-center">
+      <div className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center relative z-20 pt-32 pb-16 text-center">
+        {/* Semantic H1 for Google Search Authority & Accessibility */}
+        <h1 className="sr-only">
+          Samuel Patrick Imole (ESCANOR) — Full-Stack Web &amp; Cross-Platform Mobile Application Developer Portfolio
+        </h1>
+
         {/* Top Status Pill */}
         <motion.div
           initial={{ opacity: 0, y: -15 }}
@@ -227,28 +232,28 @@ export default function HeroSection({ onProjectsClick, onContactClick }) {
         >
           <span className="w-1.5 h-1.5 rounded-full bg-cyber-bright animate-ping" />
           <span className="text-[10px] md:text-xs font-mono font-bold uppercase tracking-[0.25em] text-white filter drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)]">
-            {hero.statusPill || 'FULL-STACK SOFTWARE ENGINEER • WEB & MOBILE'}
+            {hero.statusPill || 'SAMUEL PATRICK IMOLE (ESCANOR) • FULL-STACK & MOBILE DEVELOPER'}
           </span>
         </motion.div>
 
-        {/* Hero Headline */}
-        <div className="relative select-text">
-          <motion.h1
+        {/* Hero Visual Headline */}
+        <div className="relative select-text" aria-hidden="true">
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15, ease: 'easeOut' }}
             className="text-5xl sm:text-7xl md:text-9xl lg:text-[112px] font-bold leading-[0.85] tracking-tighter text-white font-display select-text filter drop-shadow-[0_4px_20px_rgba(0,0,0,0.9)]"
           >
             {hero.headlinePart1 || 'Engineering.'}
-          </motion.h1>
-          <motion.h1
+          </motion.div>
+          <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
             className="text-5xl sm:text-7xl md:text-9xl lg:text-[112px] font-bold leading-[0.85] tracking-tighter text-white font-display mt-[-0.25rem] sm:-mt-1 md:-mt-2 lg:-mt-3 select-text filter drop-shadow-[0_4px_20px_rgba(0,0,0,0.9)] drop-shadow-[0_2px_30px_rgba(255,106,0,0.45)]"
           >
             {hero.headlinePart2 || 'Ideas Into Reality.'}
-          </motion.h1>
+          </motion.div>
         </div>
 
         {/* Clear, Human Bio Subtitle */}
@@ -290,7 +295,7 @@ export default function HeroSection({ onProjectsClick, onContactClick }) {
 
         {/* Tech Stack Pills Container */}
         <TechContainer />
-      </main>
+      </div>
 
       {/* === Layer 6: Bottom Controls Bar === */}
       <footer className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 z-30 flex justify-between items-center text-xs text-white/40 font-mono">

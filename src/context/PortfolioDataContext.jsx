@@ -19,28 +19,28 @@ export const defaultSiteContent = {
   hero: {
     headlinePart1: 'Engineering.',
     headlinePart2: 'Ideas Into Reality.',
-    statusPill: 'FULL-STACK SOFTWARE ENGINEER • WEB & MOBILE',
-    bio: 'Building software is about solving real problems, creating value, and delivering smooth user experiences. I develop full-stack web and cross-platform mobile applications that help businesses scale, delight users, and turn ambitious ideas into reliable digital products.',
+    statusPill: 'SAMUEL PATRICK IMOLE (ESCANOR) • FULL-STACK & MOBILE DEVELOPER',
+    bio: 'Samuel Patrick Imole (ESCANOR) — 300-level Computer Science student at TASUED, CEO & Founder of TASFUED Marketplace, and Enterprise Software Engineer at Escanor Tech / InfoSystem Consulting. Building resilient offline-first systems, Next.js web applications, and Flutter mobile apps.',
     locationStatus: 'LOCATION: NIGERIA • REMOTE WORLDWIDE',
     availabilityStatus: 'AVAILABLE FOR NEW PROJECTS',
     primaryCtaText: 'View Featured Projects',
     secondaryCtaText: 'Download Resume (.DOC)',
   },
   about: {
-    title: 'About Samuel Patrick',
+    title: 'About Samuel Patrick Imole',
     badge: 'About Me • Background & Experience',
     paragraph1:
-      'I am a Full-Stack Web and Mobile Application Developer studying Computer Science at Tai Solarin Federal University of Education (TASFUED) in Ogun State, Nigeria.',
+      'I am Samuel Patrick Imole (professional brand: ESCANOR), a Full-Stack Web and Cross-Platform Mobile Application Developer, CEO & Founder of TASFUED Marketplace, currently in my 300 level studying Computer Science at Tai Solarin Federal University of Education (TASUED), Ogun State, Nigeria.',
     paragraph2:
-      'During my 3-month Industrial Training (SIWES) at InfoSystem Consulting, I engineered core offline database structures, authentication middleware, and localized testing systems like the AWBA CBT platform.',
+      'As an Enterprise Software Engineer at Escanor Tech & Software Solutions and InfoSystem Consulting, I engineered core offline database architectures, local network synchronization, kiosk anti-cheat lockdown security, and high-performance CBT examination engines like the AWBA CBT platform.',
     paragraph3:
-      'My core toolset spans React, Next.js, TypeScript, Flutter, Dart, Supabase, PostgreSQL, and Firebase. I combine solid computer science fundamentals and database optimization with clean design to build software that performs reliably at scale.',
+      'My core engineering stack spans Next.js, React, TypeScript, JavaScript, Flutter, Dart, Riverpod, GoRouter, Supabase, PostgreSQL, Firebase, SQLite, and IndexedDB. I specialize in offline-first systems, school management engines, and responsive enterprise applications.',
     stat1Value: '7 Apps',
     stat1Label: 'FEATURED PROJECTS',
-    stat2Value: 'TASFUED',
-    stat2Label: 'COMPUTER SCIENCE',
+    stat2Value: 'TASUED',
+    stat2Label: '300L CS • OGUN STATE',
     stat3Value: 'SIWES',
-    stat3Label: 'INFOSYSTEM INTERN',
+    stat3Label: 'INFOSYSTEM CONSULTING',
   },
   contact: {
     name: defaultDeveloperProfile.name || 'Samuel Patrick Imole',
