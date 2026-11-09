@@ -43,9 +43,9 @@ export const defaultSiteContent = {
     stat3Label: 'INFOSYSTEM INTERN',
   },
   contact: {
-    name: defaultDeveloperProfile.name || 'Samuel Imole Patrick',
+    name: defaultDeveloperProfile.name || 'Samuel Patrick Imole',
     codename: defaultDeveloperProfile.codename || 'ESCANOR',
-    title: defaultDeveloperProfile.title || 'Full-Stack Web & Mobile Developer',
+    title: defaultDeveloperProfile.title || 'Full-Stack Web & Cross-Platform Mobile Application Developer',
     location: defaultDeveloperProfile.location || 'Mowe, Ogun State, Nigeria',
     email: defaultDeveloperProfile.email || 'samuelimolepatrick@gmail.com',
     phone: defaultDeveloperProfile.phone || '+234 814 922 4954',

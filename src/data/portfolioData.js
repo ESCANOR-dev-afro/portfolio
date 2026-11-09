@@ -8,7 +8,7 @@ import certAdvancedTopics from '../../Claude Certificate/Advanced Topics .png';
 /**
  * =========================================================================
  * CENTRALIZED PORTFOLIO DATA CONFIGURATION STORE
- * Samuel Imole Patrick (ESCANOR) — Full-Stack Web & Mobile Engineer
+ * Samuel Patrick Imole (ESCANOR) — Full-Stack Web & Mobile Engineer
  * =========================================================================
  * Clean, natural, and accessible copy tailored for recruiters, startup founders,
  * engineering leaders, and clients.
@@ -639,27 +639,27 @@ export const certificateCategories = [
    3. DEVELOPER PROFILE & BACKGROUND METADATA
    ========================================================================= */
 export const developerProfile = {
-  name: 'Samuel Imole Patrick',
+  name: 'Samuel Patrick Imole',
   codename: 'ESCANOR',
-  title: 'Full-Stack Web & Mobile Developer',
+  title: 'Full-Stack Web & Cross-Platform Mobile Application Developer',
   location: 'Mowe, Ogun State, Nigeria',
   email: 'samuelimolepatrick@gmail.com',
   phone: '+234 814 922 4954',
   github: 'https://github.com/ESCANOR-dev-afro',
   linkedin: 'https://www.linkedin.com/in/samuel-patrick-722b82423',
   portfolioUrl: 'https://about-sammy.vercel.app',
-  bio: 'Full-Stack Software Engineer with hands-on experience building production web and mobile apps with React, Next.js, Flutter, and PostgreSQL. Passionate about clean code, intuitive design, and building reliable digital systems.',
+  bio: 'Full-Stack Web & Cross-Platform Mobile Application Developer, CEO & Founder of TASFUED Marketplace, and Enterprise Software Engineer at Escanor Tech & Software Solutions / InfoSystem Consulting. Specializing in offline-first systems, Next.js, Flutter, Supabase, and PostgreSQL.',
   education: {
     degree: 'Bachelor of Science (B.Sc.) in Computer Science',
-    institution: 'Tai Solarin Federal University of Education (TASFUED)',
+    institution: 'Tai Solarin Federal University of Education (TASUED)',
     location: 'Ogun State, Nigeria',
-    status: 'Enrolled • Strong Academic Standing',
+    status: '300-Level Undergraduate • Strong Academic Standing',
   },
   experience: {
-    role: 'Software Engineering & Database Intern (SIWES)',
-    company: 'InfoSystem Consulting',
-    duration: '3-Month Intensive Program',
-    highlight: 'Built a localized offline-first examination system (AWBA CBT Platform) that allowed hundreds of students to take tests concurrently with zero network delay and automatic score grading.',
+    role: 'CEO & Founder / Enterprise Software Engineer',
+    company: 'TASFUED Marketplace & Escanor Tech / InfoSystem Consulting',
+    duration: 'Production Deployments & Scalable Systems',
+    highlight: 'Founded TASFUED Marketplace and engineered localized offline-first examination engines (AWBA CBT Platform) with zero network latency and anti-cheat lockdown security.',
   },
 };
 

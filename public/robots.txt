@@ -1,0 +1,7 @@
+# Robots.txt for Samuel Patrick Imole (ESCANOR) Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://about-sammy.vercel.app/sitemap.xml
+
