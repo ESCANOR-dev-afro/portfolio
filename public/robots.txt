@@ -3,5 +3,5 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://about-sammy.vercel.app/sitemap.xml
+Sitemap: https://samuelpatrickimole.vercel.app/sitemap.xml
 

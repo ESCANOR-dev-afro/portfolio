@@ -647,7 +647,7 @@ export const developerProfile = {
   phone: '+234 814 922 4954',
   github: 'https://github.com/ESCANOR-dev-afro',
   linkedin: 'https://www.linkedin.com/in/samuel-patrick-722b82423',
-  portfolioUrl: 'https://about-sammy.vercel.app',
+  portfolioUrl: 'https://samuelpatrickimole.vercel.app',
   bio: 'Full-Stack Web & Cross-Platform Mobile Application Developer, CEO & Founder of TASFUED Marketplace, and Enterprise Software Engineer at Escanor Tech & Software Solutions / InfoSystem Consulting. Specializing in offline-first systems, Next.js, Flutter, Supabase, and PostgreSQL.',
   education: {
     degree: 'Bachelor of Science (B.Sc.) in Computer Science',
