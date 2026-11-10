@@ -641,6 +641,7 @@ export const certificateCategories = [
 export const developerProfile = {
   name: 'Samuel Patrick Imole',
   codename: 'ESCANOR',
+  aliases: ['samuelpatrickimole', 'Samuel Imole', 'Patrick Samuel', 'Escanor', 'Escanor Dev', 'Patrick Imole'],
   title: 'Full-Stack Web & Cross-Platform Mobile Application Developer',
   location: 'Mowe, Ogun State, Nigeria',
   email: 'samuelimolepatrick@gmail.com',

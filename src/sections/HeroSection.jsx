@@ -222,6 +222,9 @@ export default function HeroSection({ onProjectsClick, onContactClick }) {
         <h1 className="sr-only">
           Samuel Patrick Imole (ESCANOR) — Full-Stack Web &amp; Cross-Platform Mobile Application Developer Portfolio
         </h1>
+        <p className="sr-only">
+          Official engineering portfolio of Samuel Patrick Imole (searched as samuelpatrickimole, Samuel Imole, Patrick Samuel, Patrick Imole, and Escanor Dev).
+        </p>
 
         {/* Top Status Pill */}
         <motion.div
