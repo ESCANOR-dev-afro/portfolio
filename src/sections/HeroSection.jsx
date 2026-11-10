@@ -218,14 +218,6 @@ export default function HeroSection({ onProjectsClick, onContactClick }) {
 
       {/* === Layer 5: Main Content === */}
       <div className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center relative z-20 pt-32 pb-16 text-center">
-        {/* Semantic H1 for Google Search Authority & Accessibility */}
-        <h1 className="sr-only">
-          Samuel Patrick Imole (ESCANOR) — Full-Stack Web &amp; Cross-Platform Mobile Application Developer Portfolio
-        </h1>
-        <p className="sr-only">
-          Official engineering portfolio of Samuel Patrick Imole (searched as samuelpatrickimole, Samuel Imole, Patrick Samuel, Patrick Imole, Escanor Dev, and Samuel Patrick portfolio).
-        </p>
-
         {/* Top Status Pill */}
         <motion.div
           initial={{ opacity: 0, y: -15 }}
@@ -239,35 +231,57 @@ export default function HeroSection({ onProjectsClick, onContactClick }) {
           </span>
         </motion.div>
 
-        {/* Hero Visual Headline */}
-        <div className="relative select-text" aria-hidden="true">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
+        {/* Main H1 Visible Heading Displaying Full Name */}
+        <div className="relative select-text max-w-4xl mx-auto">
+          <motion.h1
+            initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15, ease: 'easeOut' }}
-            className="text-5xl sm:text-7xl md:text-9xl lg:text-[112px] font-bold leading-[0.85] tracking-tighter text-white font-display select-text filter drop-shadow-[0_4px_20px_rgba(0,0,0,0.9)]"
+            className="text-4xl sm:text-6xl md:text-7xl lg:text-[82px] font-black leading-[1.05] tracking-tight text-white font-display select-text filter drop-shadow-[0_4px_25px_rgba(0,0,0,0.9)]"
           >
-            {hero.headlinePart1 || 'Engineering.'}
-          </motion.div>
+            Samuel Patrick Imole
+          </motion.h1>
+
+          {/* Subtext & Secondary Heading with Common Name Combinations */}
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
-            className="text-5xl sm:text-7xl md:text-9xl lg:text-[112px] font-bold leading-[0.85] tracking-tighter text-white font-display mt-[-0.25rem] sm:-mt-1 md:-mt-2 lg:-mt-3 select-text filter drop-shadow-[0_4px_20px_rgba(0,0,0,0.9)] drop-shadow-[0_2px_30px_rgba(255,106,0,0.45)]"
+            transition={{ duration: 0.8, delay: 0.25, ease: 'easeOut' }}
+            className="mt-3.5 flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-xs sm:text-sm font-mono text-white/90"
           >
-            {hero.headlinePart2 || 'Ideas Into Reality.'}
+            <span className="px-3 py-1 rounded-md bg-white/5 border border-white/10 shadow-sm">
+              Also known as <strong className="text-cyber-bright">Samuel Patrick</strong>
+            </span>
+            <span className="text-cyber-orange">•</span>
+            <span className="px-3 py-1 rounded-md bg-white/5 border border-white/10 shadow-sm">
+              <strong className="text-cyber-bright">Samuel Imole</strong>
+            </span>
+            <span className="text-cyber-orange">•</span>
+            <span className="px-3 py-1 rounded-md bg-cyber-orange/10 border border-cyber-orange/30 text-cyber-orange font-bold">
+              Brand: ESCANOR
+            </span>
           </motion.div>
+
+          {/* Creative Tagline & Slogan */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.35, ease: 'easeOut' }}
+            className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-white/90 to-cyber-orange font-display mt-5 select-text filter drop-shadow-[0_2px_20px_rgba(255,106,0,0.35)]"
+          >
+            Engineering Ideas Into Reality.
+          </motion.h2>
         </div>
 
-        {/* Clear, Human Bio Subtitle */}
+        {/* Visible Introductory Text Explicitly Stating Full Professional Identity & Common Variations */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.45 }}
-          className="mt-8 text-base md:text-lg text-white max-w-[700px] leading-relaxed select-text font-sans font-semibold filter drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]"
+          className="mt-6 text-base md:text-lg text-white/90 max-w-[760px] leading-relaxed select-text font-sans font-medium filter drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]"
         >
           {hero.bio ||
-            'Building software is about solving real problems, creating value, and delivering smooth user experiences. I develop full-stack web and cross-platform mobile applications that help businesses scale, delight users, and turn ambitious ideas into reliable digital products.'}
+            'I am Samuel Patrick Imole (commonly searched as Samuel Patrick or Samuel Imole, professional brand ESCANOR) — Full-Stack Web & Cross-Platform Mobile Application Developer, CEO & Founder of TASFUED Marketplace, and 300-level Computer Science undergraduate at TASUED. I engineer offline-first architectures, high-performance CBT exam engines, and scalable enterprise applications with Next.js, React, and Flutter.'}
         </motion.p>
 
         {/* Production CTA Buttons */}

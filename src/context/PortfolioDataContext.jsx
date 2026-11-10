@@ -20,7 +20,7 @@ export const defaultSiteContent = {
     headlinePart1: 'Engineering.',
     headlinePart2: 'Ideas Into Reality.',
     statusPill: 'SAMUEL PATRICK IMOLE (ESCANOR) • FULL-STACK & MOBILE DEVELOPER',
-    bio: 'Samuel Patrick Imole (ESCANOR) — 300-level Computer Science student at TASUED, CEO & Founder of TASFUED Marketplace, and Enterprise Software Engineer at Escanor Tech / InfoSystem Consulting. Building resilient offline-first systems, Next.js web applications, and Flutter mobile apps.',
+    bio: 'I am Samuel Patrick Imole (commonly searched as Samuel Patrick or Samuel Imole, professional brand ESCANOR) — Full-Stack Web & Cross-Platform Mobile Application Developer, CEO & Founder of TASFUED Marketplace, and 300-level Computer Science undergraduate at TASUED. I engineer offline-first architectures, high-performance CBT exam engines, and scalable enterprise applications with Next.js, React, and Flutter.',
     locationStatus: 'LOCATION: NIGERIA • REMOTE WORLDWIDE',
     availabilityStatus: 'AVAILABLE FOR NEW PROJECTS',
     primaryCtaText: 'View Featured Projects',
